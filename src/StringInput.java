@@ -5,9 +5,11 @@ public class StringInput
     {
         Scanner scan = new Scanner(System.in);
         System.out.println("whats yo name ");
+        System.out.print("name: ");
         String name = scan.nextLine();
 
-        System.out.println("wassup +" name);
+        System.out.println("my name is " + name);
+
 
 
     }
