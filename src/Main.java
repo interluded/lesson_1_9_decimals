@@ -11,8 +11,5 @@ public class Main
         System.out.print("Enter the third double ");
         double integer_3 = scan.nextDouble();
         System.out.println((integer_1 + integer_2 + integer_3) /  3.0);
-
-
-
     }
 }
